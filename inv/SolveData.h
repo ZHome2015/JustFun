@@ -57,8 +57,7 @@ public:
 	void SaveData(char* token, vector<invertNode>& item);	//保存数据到数据库
 	
 
-//protected:
-public:
+protected:
 	vector<invertNode> charToVector(char *p, int n);// 把char*变回vector 
 
 	// 序列化存入数据库 
